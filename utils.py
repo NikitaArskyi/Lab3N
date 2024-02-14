@@ -8,3 +8,8 @@ def gcd(a, b):
         a=a%b
         return gcd(a, b)
     return max(a, b)
+def is_prime(n):
+    for i in range(2, (n+2)//2):
+        if n%i==0:
+            return "NO"
+    return "YES"
