@@ -1,4 +1,4 @@
 import utils
-print(fact(5))
-print(gcd(5, 7)
-print(is_prime(37))
+print(utils.fact(5))
+print(utils.gcd(5, 7)
+print(utils.is_prime(37))
